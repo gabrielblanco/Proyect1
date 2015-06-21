@@ -10,20 +10,12 @@ namespace Proyect1.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Enjoy changing products with";
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult MyProducts()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

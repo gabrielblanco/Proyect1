@@ -23,7 +23,7 @@ textarea {
     max-width: 280px;
 }
 
-#loginForm {
+#registerForm, #loginForm {
   padding:2%;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, .25);
@@ -42,6 +42,97 @@ textarea {
     text-align:left;
 }
 
-footer , #loginForm{
+footer , #registerForm, #loginForm {
     text-align:center;
+}
+.box{
+  margin: 100px auto;
+  width: 300px;
+  height: 50px;
+}
+/*** SEARCH MENU ***/
+input {
+	outline: none;
+}
+input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+/* search input field */
+input[type=search] {
+	background: #ededed url(img/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+	width: 70px;
+	
+	-webkit-border-radius: 30em;
+	-moz-border-radius: 30em;
+	border-radius: 30em;
+	
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+input[type=search]:focus {
+	width: 400px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+input[type=search]:hover {
+	width: 400px;
+}
+/***** PRODUCTS BUTTON *****/
+.square{
+    background: url(img/plus.png) no-repeat center;
+    background-color: black;
+    cursor:pointer;
+    outline: none;
+    box-shadow: none;
+    display: inline-block;
+    border-radius: 10px;
+    width:150px;
+    height:150px;
+    margin: 5px;
+    opacity: 0.3;
+}
+.square:hover{   
+    opacity: 0.5;
+}
+/*** close and new **/
+#close{
+    background: url(img/close-min.png) no-repeat center;
+    background-color: black;
+    width: 25px;
+    height: 24px;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: none;
+    float: right;
+    outline: none;
+    visibility: hidden;
+}
+.new{
+    background: url(img/bg.jpg) no-repeat center;
+    outline: none;
+    display: inline-block;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+/*div separator*/
+.vertical_menu {
+    margin: 10px;
+    width: 250px;
+    height: 100%;
+}
+.vertical_menu, product_list{
+    float: left;
 }
