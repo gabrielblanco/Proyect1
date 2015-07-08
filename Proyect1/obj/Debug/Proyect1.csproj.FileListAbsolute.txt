@@ -53,3 +53,112 @@ C:\Users\Gabriel\documents\visual studio 2013\Projects\Proyect1\Proyect1\bin\Mic
 C:\Users\Gabriel\documents\visual studio 2013\Projects\Proyect1\Proyect1\obj\Debug\Proyect1.csprojResolveAssemblyReference.cache
 C:\Users\Gabriel\documents\visual studio 2013\Projects\Proyect1\Proyect1\obj\Debug\Proyect1.dll
 C:\Users\Gabriel\documents\visual studio 2013\Projects\Proyect1\Proyect1\obj\Debug\Proyect1.pdb
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Proyect1.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Proyect1.pdb
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Antlr3.Runtime.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\EntityFramework.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\EntityFramework.SqlServer.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Newtonsoft.Json.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Owin.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Helpers.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Mvc.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Optimization.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Razor.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\WebGrease.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Helpers.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Mvc.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Optimization.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.Razor.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Antlr3.Runtime.pdb
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Newtonsoft.Json.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\EntityFramework.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\EntityFramework.SqlServer.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\obj\Debug\Proyect1.csprojResolveAssemblyReference.cache
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\obj\Debug\Proyect1.dll
+C:\Users\Esmar\Documents\Proyec\Proyect1\Proyect1\obj\Debug\Proyect1.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Proyect1.dll.config
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Proyect1.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Proyect1.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Antlr3.Runtime.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\EntityFramework.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\EntityFramework.SqlServer.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Newtonsoft.Json.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Owin.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Helpers.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Mvc.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Optimization.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Razor.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\WebGrease.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Helpers.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Mvc.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Optimization.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.Razor.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Antlr3.Runtime.pdb
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Newtonsoft.Json.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\EntityFramework.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\obj\Debug\Proyect1.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\obj\Debug\Proyect1.dll
+C:\Users\Gabriel\Documents\Visual Studio 2013\Projects\Proyecto24\Proyect1\Proyect1\obj\Debug\Proyect1.pdb

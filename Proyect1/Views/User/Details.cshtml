@@ -1,0 +1,51 @@
+﻿@model Proyect1.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+@*@if (Session["LogedUsername"] != null)
+{*@
+    <div class="prod-container">
+        <div class="menu-wrap">
+            <nav class="menu">
+                <div class="icon-list">
+                    <a href="#"><i class="fa fa-fw fa-info-circle"></i><span>Account Info</span></a>
+                    <a href="#"><i class="fa fa-fw fa-edit"></i><span>Edit Information</span></a>
+                    <a href="#"><i class="fa fa-fw fa-trash-o"></i><span>Delete Account</span></a>
+                </div>
+            </nav>
+            <button class="close-button" id="close-button">Close Menu</button>
+        </div>
+        <button class="menu-button" id="open-button">Open Menu</button>
+        <div class="content-wrap">
+            <div class="title-content">
+                <header class="codrops-header">
+                    <h1>My Account</h1>
+                </header>
+            </div>
+        </div>
+        <div class="info">
+            <div class="image-info">
+                <p id="image-title"><b>Account Picture</b></p>
+                <div class="account_image"></div>
+            </div>
+            <dl class="dl-horizontal">
+                <dd >
+                    @Html.DisplayFor(model => model.Name, new { @id = "user_name" })
+                </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Email, new { @id = "user-details" })
+                </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Username, new { @id = "user-details" })
+                </dd>
+                <br />
+                <dd>
+                    @Html.DisplayFor(model => model.PhoneNumber, new { @id = "user-details" })
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <script src="~/Scripts/products/classie.js"></script>
+    <script src="~/Scripts/products//main.js"></script>
+@*}*@

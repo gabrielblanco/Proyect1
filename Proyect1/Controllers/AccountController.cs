@@ -391,6 +391,7 @@ namespace Proyect1.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult LogOff()
         {
+            
             AuthenticationManager.SignOut();
             return RedirectToAction("Index", "Home");
         }

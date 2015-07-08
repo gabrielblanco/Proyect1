@@ -1,0 +1,84 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	color: #3b393d;
+	background-size: cover;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+body.body--hidden {
+	overflow: hidden;
+}
+
+body.body--hidden .codrops-header,
+body.body--hidden .content--related {
+	opacity: 0;
+}
+
+.codrops-header,
+.content--related {
+	-webkit-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.content {
+	padding: 1em 0 2em;
+}
+/****** PRODUCTS VIEW   *****/
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+a {
+	color: #4e4a46;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.menu-button {
+    margin-top: 80px;
+}
+
+/* Header */
+.codrops-header {
+	margin: 0 auto;
+	padding: 3em 2em;
+	text-align: center;
+
+}
+
+.codrops-header h1 {
+	color: white;
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: 3.75em;
+	line-height: 1;
+}
+.prod-container {
+    margin-top: 50px;
+}

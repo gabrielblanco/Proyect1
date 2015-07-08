@@ -1,20 +1,31 @@
 ﻿@{
     ViewBag.Title = "My Products";
 }
-
-<h1>My Products</h1>
-<form id="search-menu">
-    <input type="search" placeholder="Search...">
-</form>
-<hr />
-<div class="vertical_menu">
-    <ul class="nav nav-pills nav-stacked">
-        <li role="presentation" class="active"><a href="#">All <span class="badge">1</span></a></li>
-        <li role="presentation"><a href="#">Outstanding <span class="badge">0</span></a></li>
-        <li role="presentation"><a href="#">Changed <span class="badge">0</span></a></li>
-    </ul>
-</div>
-<div class="product_list">
-    <div class="square" onclick="createButton()"></div>
-</div>
-
+@if (Session["LogedUsername"] != null)
+{
+    <div class="prod-container">
+        <div class="menu-wrap">
+            <nav class="menu">
+                <div class="icon-list">
+                    <a href="#"><i class="fa fa-fw fa-folder-open-o"></i><span>All Products</span></a>
+                    <a href="#"><i class="fa fa-fw fa-clock-o"></i><span>Overcoming</span></a>
+                    <a href="#"><i class="fa fa-fw fa-exchange"></i><span>Exchanged</span></a>
+                    <a href="#"><i class="fa fa-fw fa-plus"></i><span>New Product</span></a>
+                    <a href="#"><i class="fa fa-fw fa-edit"></i><span>Edit Product</span></a>
+                    <a href="#"><i class="fa fa-fw fa-times"></i><span>Delete Product</span></a>
+                </div>
+            </nav>
+            <button class="close-button" id="close-button">Close Menu</button>
+        </div>
+        <button class="menu-button" id="open-button">Open Menu</button>
+        <div class="content-wrap">
+            <div class="title-content">
+                <header class="codrops-header">
+                    <h1>My Products</h1>
+                </header>
+            </div>
+        </div>
+    </div>
+    <script src="~/Scripts/products/classie.js"></script>
+    <script src="~/Scripts/products//main.js"></script>
+}

@@ -1,23 +1,4 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
-}
-
-/* Set width on the form input elements since they're 100% wide by default */
-input,
+﻿input,
 select,
 textarea {
     max-width: 280px;
@@ -29,12 +10,12 @@ textarea {
   border: 1px solid rgba(0, 0, 0, .25);
   box-shadow: 0 0 10px rgba(0, 0, 0, .25);
   margin:0 auto;
-  margin-top: 10%;
+  margin-top: 12%;
   max-width: 56em;
   position: relative;
   width:60%;
   height: 100%;
-  left:20%;
+  left:25%;
   margin-bottom:5%;
 }
 
@@ -42,14 +23,22 @@ textarea {
     text-align:left;
 }
 
+footer {
+   position: fixed; /*relative*/
+   bottom:0;
+   width:100%;
+   height:30px;
+}
 footer , #registerForm, #loginForm {
     text-align:center;
 }
+
 .box{
   margin: 100px auto;
   width: 300px;
   height: 50px;
 }
+
 /*** SEARCH MENU ***/
 input {
 	outline: none;
@@ -87,9 +76,19 @@ input[type=search]:focus {
 input[type=search]:hover {
 	width: 400px;
 }
+
+.jumbotron {
+    background: url(img/books.jpg) center;
+    height: 600px;
+}
+
+.form-group, .col-md-10{
+    padding-left: 20px;
+}
+
 /***** PRODUCTS BUTTON *****/
-.square{
-    background: url(img/plus.png) no-repeat center;
+/*.square{
+    background: url(img/user.jpg) no-repeat center;
     background-color: black;
     cursor:pointer;
     outline: none;
@@ -103,7 +102,7 @@ input[type=search]:hover {
 }
 .square:hover{   
     opacity: 0.5;
-}
+}*/
 /*** close and new **/
 #close{
     background: url(img/close-min.png) no-repeat center;
@@ -127,12 +126,119 @@ input[type=search]:hover {
     height: 150px;
     margin: 5px;
 }
-/*div separator*/
+
 .vertical_menu {
     margin: 10px;
     width: 250px;
     height: 100%;
 }
-.vertical_menu, product_list{
+.vertical_menu, product_list, .menu_simple, .info{
     float: left;
+}
+
+.dl-horizontal{
+    padding-left: 0%;
+    float: left;
+    margin-top: 20%;
+}
+
+.form-horizontal {
+    margin: 3% 0 12% 25%;
+    width:69%;
+}
+
+.dt-horizontal {
+  display: inline-table;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+  margin: 3% 0 2% 10%;
+}
+.delete-form {
+    margin-left: 30%;
+}
+
+.account_image {
+    width:200px;
+    height:200px;
+    background: url(img/user.png) no-repeat center;
+    background-color: #b4bad2;
+    opacity: 0.9;
+    margin-left: 50%
+}
+
+.btn-trash {
+    margin-left: 10%;
+}
+
+/* CSSTerm.com Simple CSS menu */
+/*.menu_simple ul {
+    background-color: #005555;
+    margin: 0;
+    padding: 0;
+    width:300px;
+    height: 455px;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #005555;
+    display:block;
+}
+
+.menu_simple ul li a:visited {
+    color: white;
+}
+
+.menu_simple ul li a:hover, .menu_simple ul li .current, .menu_simple ul li a:active{
+    color: white;
+    background-color: #5FD367;
+}*/
+
+#header-font {
+    font: bold 34px “Century Schoolbook”, Georgia, Times, serif;
+    color: #FFFFFF;
+    font-size: 3em;
+    line-height: 90%;
+    margin: .8em 0 .4em 0;
+    letter-spacing: -2px;
+}
+
+.brand-font {
+    font-family: Georgia,”Times New Roman”,serif; 
+    font-size: 18px;
+    font-weight: bold; 
+    color: white; 
+    line-height: 22px; 
+    margin: 0; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info {
+    margin-left: 15%;
+}
+.image-info {
+    float: left;
+    margin-top: 50px;
+}
+
+#image-title {
+    margin-left: 50%;
+    font-size: 16px;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#user_name {
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+
+#user-details {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
