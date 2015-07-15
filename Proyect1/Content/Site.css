@@ -4,19 +4,28 @@ textarea {
     max-width: 280px;
 }
 
-#registerForm, #loginForm {
+#registerForm, #loginForm, #other-service {
   padding:2%;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, .25);
   box-shadow: 0 0 10px rgba(0, 0, 0, .25);
   margin:0 auto;
   margin-top: 12%;
-  max-width: 56em;
+  max-width: 42em;
   position: relative;
-  width:60%;
-  height: 100%;
-  left:25%;
   margin-bottom:5%;
+}
+
+#registerForm {
+    left: 25%;
+}
+
+#other-service {
+    margin: 50% 25% 0 0;
+}
+
+.form-location {
+    margin-left: 5%;
 }
 
 .form-group{
@@ -86,23 +95,6 @@ input[type=search]:hover {
     padding-left: 20px;
 }
 
-/***** PRODUCTS BUTTON *****/
-/*.square{
-    background: url(img/user.jpg) no-repeat center;
-    background-color: black;
-    cursor:pointer;
-    outline: none;
-    box-shadow: none;
-    display: inline-block;
-    border-radius: 10px;
-    width:150px;
-    height:150px;
-    margin: 5px;
-    opacity: 0.3;
-}
-.square:hover{   
-    opacity: 0.5;
-}*/
 /*** close and new **/
 #close{
     background: url(img/close-min.png) no-repeat center;
@@ -127,6 +119,23 @@ input[type=search]:hover {
     margin: 5px;
 }
 
+#product-back {
+    background: url(img/poligon.jpg);
+    height: 500px;
+}
+
+#img-prod {
+    margin-top: 100px;
+    width:500px;
+    height: 300px;
+    margin-left: 30%;
+}
+
+.btn-change {
+    margin-left: 400px;
+}
+
+/*Vertical Menu*/
 .vertical_menu {
     margin: 10px;
     width: 250px;
@@ -140,11 +149,6 @@ input[type=search]:hover {
     padding-left: 0%;
     float: left;
     margin-top: 20%;
-}
-
-.form-horizontal {
-    margin: 3% 0 12% 25%;
-    width:69%;
 }
 
 .dt-horizontal {
@@ -241,4 +245,9 @@ input[type=search]:hover {
 
 #user-details {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main-header {
+    margin-bottom: 0;
+    height: 45px;
 }

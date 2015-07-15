@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Products>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div style="margin-top: 60px;">
+@using (Html.BeginForm("Index", "Transactions", FormMethod.Get))
+{
+    @*<div class="row">
+    <div class="col-lg-6" style="width: 374px;">
+        <div class="input-group" style="margin: 10px 0 20px 20px;">
+            <input id="search" type="text" class="form-control" placeholder="Search for...">
+            Search: @Html.TextBoxFor("Search")
+            <span class="input-group-btn">
+                <button class="btn btn-success" type="submit">Go!</button>
+            </span>
+        </div>
+    </div>
+        </div>*@
+    <p>
+        Title: @Html.TextBox("Search") <br />
+        <input type="submit" value="Filter" />
+    </p>
+}
+
+<table class="table">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RegisterDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegisterDate)
+            </td>
+            <td>
+                @Html.ActionLink("StartTransaction", "StartTransaction", new { id = item.Id }, new { @class = "btn btn-primary" }) 
+            </td>
+        </tr>
+    }
+
+</table>
+</div>

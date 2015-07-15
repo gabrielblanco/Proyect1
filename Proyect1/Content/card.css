@@ -45,8 +45,8 @@
 	height: auto;
 	margin: 0 auto;
 	padding: 30px 40px 22px;
-	color: #888;
-	background: #fff;
+	color: #fff;
+	background: #eee;
 }
 
 .card__container--closed .card__content {

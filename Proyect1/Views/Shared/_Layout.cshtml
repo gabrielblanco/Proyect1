@@ -1,36 +1,35 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title | WEchange</title>
     <link rel="Shortcut Icon" href="~/favicon.ico" type="image/x-icon" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/Scripts/site.js")
-    @Styles.Render("~/Content/css")
-
-    @*Products Style*@
+    
     <link rel="stylesheet" type="text/css" href="~/Content/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/demo.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/card.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/pattern.css" />
     <link rel="stylesheet" type="text/css" href="~/Content/menu_sideslide.css" />
-    @*Products Style*@
-   
+
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top main-header">
         <div class="container">
             <div class="navbar-header">
                 @Html.ActionLink("WEchange", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("My Products", "MyProducts", "Home")</li>
-                    <li>@Html.ActionLink("My Account", "Details", "User", "3")</li>
+                    <li>@Html.ActionLink("Products", "Index", "Transactions")</li>
+                    @Html.Partial("_Logon")
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
@@ -43,7 +42,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-  
     @RenderSection("scripts", required: false)
 </body>
 </html>

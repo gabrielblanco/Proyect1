@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Out";
+}
+
+<h2>Out </h2>
+
+
+@foreach (var item1 in ViewBag.Transacciones)
+{
+    <table class="table">
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                FeacturedProduct
+            </th>
+            <th>
+                ProductOfInterest
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                Date
+            </th>
+        </tr>
+
+
+        <tr>
+            <td>
+                @item1.Id
+            </td>
+            <td>
+                @Html.ActionLink("Feactured Product", "Details3", new { id = @item1.FeacturedProduct })
+
+            </td>
+            <td>
+                @Html.ActionLink("ProductsOfInterest", "Details3", new { id = @item1.ProductOfInterest })
+
+            </td>
+            <td>
+                @item1.Status
+            </td>
+            <td>
+                @item1.Date
+
+            </td>
+            <td>
+                @Html.ActionLink("Complete", "Complete", new { id = @item1.Id }, new { @class = "btn btn-primary" })
+                @Html.ActionLink("Cancel", "Cancel", new { id = @item1.Id }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+
+
+    </table>
+}

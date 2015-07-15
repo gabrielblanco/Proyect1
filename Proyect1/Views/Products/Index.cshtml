@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Proyect1.Models.Products>
+
+@{
+    ViewBag.Title = "My Products";
+}
+
+<div class="prod-container">
+    <div class="menu-wrap">
+        <nav class="menu">
+            <div class="icon-list">
+                <a href=""><i class="fa fa-fw fa-folder-open-o"></i><span>All Products</span></a>
+                <a href=""><i class="fa fa-fw fa-clock-o"></i><span>Overcoming</span></a>
+                <a href=""><i class="fa fa-fw fa-exchange"></i><span>Exchanged</span></a>
+                <a href="~/Products/Create"><i class="fa fa-fw fa-plus"></i><span>New Product</span></a>
+            </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+    </div>
+    <button class="menu-button" id="open-button">Open Menu</button>
+    <div class="content-wrap">
+        <div class="title-content">
+            <header class="codrops-header">
+                <h1>My Products</h1>
+            </header>
+        </div>
+        <div id="page-info">
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.ProductName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Status)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.RegisterDate)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.ProductName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Status)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.RegisterDate)
+                        </td>
+                        <td>
+                            @Html.ActionLink(" Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-success" })
+                            @Html.ActionLink(" Details", "Details", new { id = item.Id }, new { @class = "btn btn-primary" })
+                            @Html.ActionLink(" Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-danger" })
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/products/classie.js"></script>
+<script src="~/Scripts/products//main.js"></script>
+
+

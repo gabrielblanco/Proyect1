@@ -1,0 +1,29 @@
+﻿@model Proyect1.Models.Products
+
+@{
+    ViewBag.Title = "Details";
+    var user_name = User.Identity.Name;
+}
+
+@if (Model.Files.Any(f => f.FileType == Proyect1.Models.FileType.Imagen))
+{
+    <dd id="product-back">
+        <img id="img-prod" src="~/File?id=@Model.Files.First(f => f.FileType == Proyect1.Models.FileType.Imagen).FileId" alt="avatar" />
+    </dd>
+}
+<div class="card__content">
+    <a class="link" href="~/Products/Index"><i class="card__btn-close fa fa-times"></i></a>
+    <div class="card__caption">
+        <h2 class="card__title">@Html.DisplayFor(model => model.ProductName)</h2>
+    </div>
+    <div class="card__copy">
+        <div class="meta">
+            <img class="meta__avatar" src="~/Content/img/user-blue.png" alt="author01" />
+            <span class="meta__author">@user_name</span>
+            <div class="change_btn">
+                @Html.DisplayFor(model => model.RegisterDate)
+            </div>
+        </div>
+        @Html.DisplayFor(model => model.Description)
+    </div>
+</div>

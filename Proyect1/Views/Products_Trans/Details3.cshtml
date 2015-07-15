@@ -1,0 +1,59 @@
+﻿@model Proyect1.Models.Products
+
+@{
+    ViewBag.Title = "Details3";
+}
+
+<h2>Details3</h2>
+
+<div class="form-horizontal">
+    <h4>Product</h4>
+    <hr />
+    <dl class="dl-horizontal" style="margin-top: 50px;">
+        @if (Model.Files.Any(f => f.FileType == Proyect1.Models.FileType.Imagen))
+        {
+            <dt>
+                Image
+            </dt>
+            <dd>
+                <img style="width: 200px; height: 200px;" src="~/File?id=@Model.Files.First(f => f.FileType == Proyect1.Models.FileType.Imagen).FileId" alt="avatar" />
+            </dd>
+        }
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RegisterDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RegisterDate)
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("<< Back to List", "ComeBacks1", new { id = Model.Id }, new { @class = "btn btn-success" })
+</div>

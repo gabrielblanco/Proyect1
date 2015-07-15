@@ -39,9 +39,6 @@ body.body--hidden .content--related {
 	pointer-events: none;
 }
 
-.content {
-	padding: 1em 0 2em;
-}
 /****** PRODUCTS VIEW   *****/
 *, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
 

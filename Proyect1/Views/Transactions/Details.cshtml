@@ -1,0 +1,48 @@
+﻿@model Proyect1.Models.Transactions
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <h4>Transactions</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FeacturedProduct)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FeacturedProduct)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductOfInterest)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductOfInterest)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
